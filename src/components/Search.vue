@@ -9,8 +9,8 @@
 </template>
 
 <script setup>
-import Loader from "./Loader.vue";
-import Movie from "./Movie.vue";
+import Loader from "../components/Loader.vue";
+import Movie from "../components/Movie.vue";
 import { ref } from "vue";
 import { useSearchStore } from "../stores/SearchStore";
 
